@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="meme_SoundBoard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="t4K-u3-103">
+                                <rect key="frame" x="51" y="258.66666666666669" width="291" height="335.00000000000006"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kavi's Meme Soundboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZc-nX-R7z">
+                                        <rect key="frame" x="31.000000000000014" y="0.0" width="229.33333333333337" height="25"/>
+                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="iGo-34-lgQ">
+                                        <rect key="frame" x="2" y="50" width="287" height="74"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Nl-pV-gwo">
+                                                <rect key="frame" x="0.0" y="0.0" width="88" height="74"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="74" id="JhH-hb-fIo"/>
+                                                    <constraint firstAttribute="width" constant="88" id="s5i-I4-Hwr"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="6"/>
+                                                <inset key="imageEdgeInsets" minX="-3" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" image="Screenshot 2020-08-02 at 21.37.25"/>
+                                                <connections>
+                                                    <action selector="meowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4gO-eh-ckD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6D-ej-jjX">
+                                                <rect key="frame" x="97" y="0.0" width="90" height="74"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="74" id="153-Lo-4IU"/>
+                                                    <constraint firstAttribute="width" constant="90" id="CwV-yX-hLt"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                <state key="normal" image="Screenshot 2020-08-02 at 21.47.23"/>
+                                                <connections>
+                                                    <action selector="morganButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UIP-tY-86P"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wo7-Qd-Ge5">
+                                                <rect key="frame" x="196" y="0.0" width="91" height="74"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="91" id="hrG-57-9kT"/>
+                                                    <constraint firstAttribute="height" constant="74" id="pWQ-8r-sfc"/>
+                                                </constraints>
+                                                <state key="normal" image="Screenshot 2020-08-02 at 21.52.56"/>
+                                                <connections>
+                                                    <action selector="BBQButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7wc-bJ-k4u"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="RTg-Qh-hTv">
+                                        <rect key="frame" x="0.0" y="149" width="291" height="78"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpL-pu-K51">
+                                                <rect key="frame" x="0.0" y="0.0" width="89" height="78"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="89" id="Jpx-EG-oRH"/>
+                                                    <constraint firstAttribute="height" constant="78" id="Qhp-9r-rtW"/>
+                                                </constraints>
+                                                <state key="normal" image="Screenshot 2020-08-02 at 22.04.51"/>
+                                                <connections>
+                                                    <action selector="BoxButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sIY-6E-KrE"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="28w-nx-3Kg">
+                                                <rect key="frame" x="102" y="0.0" width="87" height="78"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="87" id="SL6-vo-Msm"/>
+                                                    <constraint firstAttribute="height" constant="78" id="qhx-6b-qJr"/>
+                                                </constraints>
+                                                <state key="normal" image="Screenshot 2020-08-02 at 22.20.06"/>
+                                                <connections>
+                                                    <action selector="BruhButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jHa-UI-0Sd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KmA-W8-Mpz">
+                                                <rect key="frame" x="202" y="0.0" width="89" height="78"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="89" id="8Fr-7w-lgR"/>
+                                                    <constraint firstAttribute="height" constant="78" id="qxP-YV-Ie1"/>
+                                                </constraints>
+                                                <state key="normal" image="Screenshot 2020-08-02 at 22.23.42"/>
+                                                <connections>
+                                                    <action selector="YeetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ysw-vg-LIN"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="dZ4-Ak-RKS">
+                                        <rect key="frame" x="53.666666666666686" y="252" width="184" height="83"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2BT-cv-pc2">
+                                                <rect key="frame" x="0.0" y="0.0" width="88" height="83"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="88" id="R5C-PD-9nY"/>
+                                                    <constraint firstAttribute="height" constant="83" id="dgo-Ao-lY8"/>
+                                                </constraints>
+                                                <state key="normal" image="Screenshot 2020-08-02 at 22.29.40"/>
+                                                <connections>
+                                                    <action selector="TerryButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Hq-mp-3hz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W8i-8l-jac">
+                                                <rect key="frame" x="101" y="0.0" width="83" height="83"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="83" id="Cf8-5w-TTe"/>
+                                                    <constraint firstAttribute="height" constant="83" id="moH-ud-KLd"/>
+                                                </constraints>
+                                                <state key="normal" image="Screenshot 2020-08-02 at 22.33.08"/>
+                                                <connections>
+                                                    <action selector="WaterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AGf-lR-Boz"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                        <constraints>
+                            <constraint firstItem="t4K-u3-103" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="34M-KV-Ic1"/>
+                            <constraint firstItem="t4K-u3-103" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FEs-Ji-JKJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="77" y="118"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Screenshot 2020-08-02 at 21.37.25" width="712" height="652"/>
+        <image name="Screenshot 2020-08-02 at 21.47.23" width="774" height="680"/>
+        <image name="Screenshot 2020-08-02 at 21.52.56" width="992" height="644"/>
+        <image name="Screenshot 2020-08-02 at 22.04.51" width="1066" height="804"/>
+        <image name="Screenshot 2020-08-02 at 22.20.06" width="1286" height="1250"/>
+        <image name="Screenshot 2020-08-02 at 22.23.42" width="822" height="602"/>
+        <image name="Screenshot 2020-08-02 at 22.29.40" width="564" height="686"/>
+        <image name="Screenshot 2020-08-02 at 22.33.08" width="724" height="720"/>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
