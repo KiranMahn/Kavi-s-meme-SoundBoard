@@ -10,3 +10,6 @@ Clone this project and open in Xcode. Building normally will allow you to see th
 
 ## To Use
 Press the photo buttons to play one of Kavi's meme sounds and enjoy the meme soundboard! 
+
+### Note
+These photos are not my own and are taken by someone else. This is a personal project not meant for production or for finanical gain. If you own any of these photos and wish for me to remove them from my app please contact me and I will remove them. 
